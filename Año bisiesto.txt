@@ -1,0 +1,18 @@
+Inicio
+    Definir Año Como Entero;
+    Escribir "Ingrese los días de un año:";
+    Leer Año
+    Si Año%4==0 Entonces
+        Si Año%100==0 Entonces
+            Si Año%400==0 Entonces
+                Escribir "El año es bisiesto";
+            SiNo
+                Escribir "El año no es bisiesto";
+            Fin Si
+        SiNo
+            Escribir "El año es bisiesto";
+        Fin Si
+    SiNo
+        Escribir "El año no es bisiesto";
+    Fin Si
+Fin

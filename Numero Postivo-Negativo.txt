@@ -1,0 +1,14 @@
+Inicio
+    Definir Numero Como Real;
+    Escribir "Ingrese un número:";
+    Leer Numero;
+    Si Numero>0 Entonces
+        Escribir "El numero es positivo";
+    SiNo
+        Si Numero<0 Entonces
+            Escribir "El numero es negativo";
+        SiNo
+            Escribir "El numero es cero";
+        Fin Si
+    Fin Si
+Fin
